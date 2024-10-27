@@ -17,18 +17,22 @@
     <h2 align="center">Formulario de Registro</h2>
     <form align="center" action="/ruta_de_envio" method="POST">
 
+        <p>
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
-        <br></br>
+        </p>
 
+        <p>
         <label for="primer_apellido">Primer apellido:</label>
         <input type="text" id="primer_apellido" name="primer_apellido" required>
-        <br></br>
+        </p>
 
+        <p>
         <label for="segundo_apellido">Segundo apellido:</label>
         <input type="text" id="segundo_apellido" name="segundo_apellido" required>
-        <br></br>
+        </p>
 
+        <p>
         <label for="fecha">Fecha de nacimiento:
     
         <select id="fecha_dia" name="fecha_dia" required>
@@ -83,24 +87,27 @@
         <input type="number" id="anio" name="anio" min="1900" max="2024" required>
 
         </label>
-        <br></br>
+        </p>
         
-
+        <p>
         <label for="correo">Correo Electronico:</label>
         <input type="email" id="correo" name="correo" required>
-        <br></br>
+        </p>
 
+        <p>
         <label for="contraseña">Contraseña:</label>
         <input type="password" id="contraseña" name="contraseña" required>
-        <br></br>
+        </p>
 
+        <p>
         <label for="confirmar_contraseña">Confirmar Contraseña:</label>
         <input type="password" id="confirmar_contraseña" name="confirmar_contraseña" required>
-        <br></br>
-
+        </p>
+        
+        <p>
         <label for="texto">Mensaje adicional</label>
         <textarea name="mensaje" id="mensaje" rows="4" placeholder="Escriba aqui cualquier mensaje adicional..."></textarea>
-        <br></br>
+        </p>
 
         <input type="submit" value="Registrarse">
 
